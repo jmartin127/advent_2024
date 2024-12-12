@@ -1,7 +1,7 @@
 import 'dart:io';
 
 void main(List<String> arguments) {
-  final file = File('bin/day2.input.txt');
+  final file = File('bin/inputs/day2.input.txt');
   final lines = file.readAsLinesSync();
 
   int numSafe = 0;
